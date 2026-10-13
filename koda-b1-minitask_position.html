@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "fira code";
+            box-sizing: border-box;
+        }
+        main {
+            position: relative;
+        }
+        .parent {
+            background-color: rgba(15, 138, 138, 0.952);
+            width: 50px;
+            height: 50px;
+            left: 10px;
+            position: relative;
+        }
+        .aunty2 {
+            position: sticky;
+            background-color: rgba(119, 20, 211, 0.897);
+            width: 100%;
+            height: 50px;
+            top: 0;
+            border: 2px solid burlywood;
+            z-index: 999;
+        }
+        .child {
+            background-color: rgba(34, 143, 20, 0.973);
+            width: 50px;
+            height: 50px;
+            left: 20px;
+            top: 15rem;
+            position: fixed;
+        }
+        .sibling {
+            background-color: rgb(196, 0, 0);
+            width: 50px;
+            height: 50px;
+            top: 100px;
+            left: 100px;
+            position: absolute;
+        }
+        .aunty {
+            background-color: rgba(204, 201, 0, 0.938);
+            width: 100%;
+            height: 50px;
+            top: 100rem;
+            position: absolute;
+        }
+        .backup {
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+        .nephew {
+            width: 50px;
+            height: 50px;
+            right: 0.5rem;
+            border: rgba(212, 15, 186, 0.925);
+            position: relative;
+        }
+        img {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: 50px;
+            width: 50px;
+        }
+        </style>
+        <title>Minitask Position</title>
+    </head>
+    <body>
+        <main>
+            <div class="aunty2"></div>
+            <div class="backup">
+            </div>
+            <div class="parent">
+                <div class="child"></div>
+                <div class="sibling"></div>
+            </div>
+            <div class="aunty">
+                <div class="nephew"></div>
+            </div>
+            <a href="https://web.whatsapp.com/">
+                <img src="images.jpeg" alt="wa badge">
+            </a>
+        </main>
+        
+    </body>
+</html>
